@@ -1,0 +1,63 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-size: 1.2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.container {
+  display: grid;
+  align-items: center;
+  height: 600px;
+  width: 600px;
+  margin: 0 auto;
+  background-color: darkblue;
+  color: aliceblue;
+  margin-top: 150px;
+}
+
+.titre {
+  text-align: center;
+}
+
+.nombre {
+  display: flex;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.txt {
+  text-align: center;
+}
+
+.form {
+  display: grid;
+  justify-content: center;
+  border-color: solid #980000;
+}
+#input {
+  border-radius: 7px;
+  padding: 20px;
+  text-align: center;
+}
+#input:focus important {
+  border-color: blueviolet;
+  box-shadow: 0 0 5px rgba(138, 43, 226, 0.5);
+}
+
+#btn {
+  border-radius: 7px;
+  cursor: pointer;
+  background-color: rgb(108, 40, 196);
+  color: white;
+  width: 200px;
+  margin-left: 100px;
+  margin-top: 30px;
+  padding: 15px;
+}
+#btn:hover {
+  background-color: white;
+  color: blueviolet;
+  transform: scale(1.15);
+  transition: all 300ms ease-in-out;
+}
